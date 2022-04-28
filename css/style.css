@@ -1,0 +1,43 @@
+* {padding:0%;
+    margin:0%}
+
+
+body {background: var(--fondo);
+        color: var(--colorletra);
+        font-family: var(--letra);}
+
+header {padding:3%;}
+
+body .main .imgdiv  {display:flex;
+                    flex-direction: column;
+                align-items: center;
+            }
+
+
+.image {width:50%;
+        padding:2%}
+
+.tribute-info {padding:2%;}
+
+
+.discografia {display: grid;
+                justify-content: center;
+                border-collapse: collapse;
+               padding: 3%; 
+                }
+
+.discografia .encabezado {font-weight: bold;
+                            background-color: black;}
+
+.discografia td {border: 1px solid white;
+                padding: 5%;
+                text-align: center;
+                width:30%
+             }
+
+.discografia tr:hover {background: grey;
+}
+
+body footer {text-align: center;}
+
+
